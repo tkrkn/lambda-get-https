@@ -7,11 +7,14 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
-    "dotenv": "^16.4.4"
-  },
   "devDependencies": {
-    "@types/node": "^20.11.20"
+    "@types/node": "^20.11.20",
+    "dotenv": "^16.4.4",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
   },
   "scripts": {
     "test": "node ./tests/units/index.mjs"
