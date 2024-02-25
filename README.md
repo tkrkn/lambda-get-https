@@ -14,10 +14,22 @@ AWS Lambdaで動くNode.jsのHTTPのデータ取得スクリプト
 
 * URL
 
+## format
+
+```bash
+./run.sh format
+```
+
+## lint
+
+```bash
+./run.sh lint
+```
+
 ## テスト
 
 ```bash
 ./run.sh test
-# or 
+# or
 npm test
 ```

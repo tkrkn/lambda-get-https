@@ -21,6 +21,8 @@
   "scripts": {
     "format": "prettier --write scripts/**/*.mjs",
     "format:test": "prettier --write tests/**/*.mjs",
+    "lint": "eslint scripts/**/*.mjs",
+    "lint:test": "eslint tests/**/*.mjs",
     "test": "node ./tests/units/index.mjs"
   }
 }
