@@ -1,0 +1,19 @@
+{
+  "name": "lambda-get-https",
+  "version": "1.0.0",
+  "description": "Get by https on Node.js v20",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  },
+  "scripts": {
+    "test": "node ./tests/units/index.mjs"
+  }
+}
